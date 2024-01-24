@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #2F1893;
+    height: 100vh;
+}
+
+.container {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.flex-grow {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.word {
+    font-family: "DM Sans";
+}
+
+.word-1 {
+    width: 65%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.2926828861236572px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    color: #fff;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    border-radius: 100px;
+    background-color: #482BE7;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.p-1 {
+    position: relative;
+    max-width: 607px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.email {
+    margin: 0 auto;
+    color: #8274BE;
+}
+
+#my-email {
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 100px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-left: 29px;
+}
+
+#Send {
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    background: #25DAC5;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.p-2 {
+    margin-top: 40px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    opacity: 0.3;
+}
